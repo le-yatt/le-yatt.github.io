@@ -107,9 +107,6 @@ footer {
     background-color: grey;
     margin-bottom: 0;
 }
-.footer p {
-    margin-bottom: 0;
-}
 
 .ytb {
     width: 40px;
@@ -121,6 +118,10 @@ footer {
 .droits {
     width: 100px;
     height: auto;
+}
+
+.Tdroits {
+    margin-bottom: 0;
 }
 
 .red {
