@@ -105,6 +105,10 @@ h2 {
 
 footer {
     background-color: grey;
+    margin-bottom: 0;
+}
+.footer p {
+    margin-bottom: 0;
 }
 
 .ytb {
