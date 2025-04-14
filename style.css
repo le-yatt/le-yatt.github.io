@@ -127,3 +127,8 @@ footer {
 .red {
     color:red;
 }
+
+.SM {
+    display:flex;
+    justify-content:space-evenly;
+}
