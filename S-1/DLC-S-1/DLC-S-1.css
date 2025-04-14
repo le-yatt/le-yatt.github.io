@@ -55,6 +55,6 @@ body {
 }
 
 .DLC {
-    position:absolute;
-    left:40%;
+    display:flex;
+    justify-content:center;
 }
