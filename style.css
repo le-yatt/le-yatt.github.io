@@ -3,16 +3,16 @@
   height:auto;
 }
 
-li {
+.lien {
   text-decoration:none;
 }
 
-li:hover {
+.lien:hover {
   color:grey;
   text-decoration:underline;
 }
 
-li:activate {
+.lien:activate {
   color:black-green;
 }
 
