@@ -2,3 +2,20 @@
   width:75px;
   height:auto;
 }
+
+li {
+  text-decoration:none;
+}
+
+li:hover {
+  color:grey;
+  text-decoration:underline;
+}
+
+li:activate {
+  color:black-green;
+}
+
+body {
+  font-family:'Arial';
+}
