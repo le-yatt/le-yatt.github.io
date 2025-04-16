@@ -5,15 +5,11 @@
 
 .lien {
   text-decoration:none;
+  color:black;
 }
 
 .lien:hover {
-  color:grey;
   text-decoration:underline;
-}
-
-.lien:active {
-  color:darkgreen;
 }
 
 body {
