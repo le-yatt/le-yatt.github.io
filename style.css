@@ -12,8 +12,8 @@
   text-decoration:underline;
 }
 
-.lien:activate {
-  color:black-green;
+.lien:active {
+  color:darkgreen;
 }
 
 body {
