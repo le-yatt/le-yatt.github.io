@@ -1,7 +1,0 @@
-// Affiche une alerte 8 secondes après l'ouverture de la page
-setTimeout(function () {
-    alert("⚠️ TRANSMISSION DÉTECTÉE : Ils t'ont repéré. Bouge maintenant !");
-  }, 22000);
-
-  
-  
