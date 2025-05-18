@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    color: lime;
+    font-family: monospace;
+    padding: 20px;
+    font-size:1.5em
+  }
+  
+  h1 {
+    color: cyan;
+    text-align:center;
+  }
+  
+  a {
+    color: orange;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .user1 {
+    color:darkred;
+  }
+
+  .M {
+    color:gold;
+  }
+
+  .Restart {
+    border:solid 3px;
+    border-radius:7px;
+    font-size:3em;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    display:block;
+  }
+
+  .Zero {
+    color:magenta;
+  }
+
+  .user {
+    color:darkgreen;
+  }
+
+  .Doc {
+    color:white;
+  }
+
+  .TV {
+    color:cyan;
+  }
+
+  .mort {
+    height: 16em;
+    width: auto;
+  }
+
+  .map {
+    height: 25em;
+    width: auto;
+  }
+
+  .V1-ENDING {
+    height:25em;
+    width: auto;
+  }
+
+  .A {
+    color:grey;
+  }
