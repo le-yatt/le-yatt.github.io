@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            height: 100vh;
+
+            /* Remplace le lien ci-dessous par ton image */
+            background-image: url('TON_LIEN_IMAGE_ICI');
+
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            color: white;
+            text-align: center;
+        }
+
+        /* Assombrit légèrement l'image */
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.4);
+            z-index: -1;
+        }
+
+        h1 {
+            margin-top: 40px;
+            font-size: 3rem;
+            font-weight: 700;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+        }
+
+        .contenu {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        p {
+            max-width: 800px;
+            font-size: 1.4rem;
+            font-weight: 300;
+            line-height: 1.8;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Ton Titre</h1>
+
+    <div class="contenu">
+        <p>
+            Ton texte ici. Tu peux écrire ce que tu veux,
+            il apparaîtra au centre de la page.
+        </p>
+    </div>
+
+</body>
+</html>
